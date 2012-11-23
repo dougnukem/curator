@@ -5,9 +5,9 @@ This branch is used to act as a snapshot maven repository, to make it easier to 
 For example in an sbt build to reference a 1.2.6-SNAPSHOT version of curator you'd do the following in the build.sbt:
 
 ```scala
-resolvers += "dougnukme-curator-mvn-repo" at "http://github.com/dougnukem/curator/raw/maven/releases"
+resolvers += "dougnukem-curator-mvn-repo" at "http://github.com/dougnukem/curator/raw/maven/releases"
 
-resolvers += "dougnukme-curator-mvn-repo-snapshots" at "http://github.com/dougnukem/curator/raw/maven/snapshots"
+resolvers += "dougnukem-curator-mvn-repo-snapshots" at "http://github.com/dougnukem/curator/raw/maven/snapshots"
 
 libraryDependencies ++= Seq(
 	"com.netflix.curator" % "curator-recipes" % "1.2.6-SNAPSHOT",
