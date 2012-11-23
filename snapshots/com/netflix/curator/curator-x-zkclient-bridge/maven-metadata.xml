@@ -2,11 +2,11 @@
 <metadata>
   <groupId>com.netflix.curator</groupId>
   <artifactId>curator-x-zkclient-bridge</artifactId>
-  <version>1.2.6-SNAPSHOT</version>
+  <version>1.2.5.dougnukem-SNAPSHOT</version>
   <versioning>
     <versions>
-      <version>1.2.6-SNAPSHOT</version>
+      <version>1.2.5.dougnukem-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20121123184455</lastUpdated>
+    <lastUpdated>20121123201857</lastUpdated>
   </versioning>
 </metadata>
